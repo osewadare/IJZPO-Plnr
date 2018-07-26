@@ -1,0 +1,100 @@
+{% extends 'record/form_template.html' %}
+{% block title %} Add a Staff {% endblock %}
+
+{% block wizardcontainer %}
+  <div class="wizard-container">
+
+		                <div class="card wizard-card" data-color="orange" id="wizardProfile">
+		                    <form action="" method="post" enctype="multipart/form-data">
+		                <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
+
+		                    	<div class="wizard-header text-center">
+		                        	<h3 class="wizard-title"><span><img class="logoimage" src="/static/assets/img/ogun%20state%20emblem.png"></span>&nbsp;  Add a Staff </h3> <br>
+
+		                    	</div>
+                                {% if user.is_authenticated %}
+								<div class="wizard-navigation">
+
+									<div class="progress-with-circle">
+									     <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="3" style="width: 21%;"></div>
+									</div>
+									<ul>
+			                            <li>
+											<a href="#page1" data-toggle="tab">
+												<div class="icon-circle">
+													<i class="ti-user"></i>
+												</div>
+												About
+											</a>
+										</li>
+			                            <li>
+											<a href="#page3" data-toggle="tab">
+												<div class="icon-circle">
+													<i class="ti-map"></i>
+												</div>
+												Profile Picture
+											</a>
+										</li>
+			                        </ul>
+								</div>
+		                        <div class="tab-content">
+
+		                            <div class="tab-pane" id="page1">
+		                            	<div class="row">
+
+                                            {% load widget_tweaks %}
+                                            <div class="col-md-2"></div>
+                                            <div class="col-md-8">
+                                                {{ form.errors }}
+                                                <br>
+                                                    <div class="form-group">
+                                                        <label>Name <small>(required)</small></label>
+                                                         {{ form.name|attr:"class:form-control"|attr:"placeholder:Name"  }}
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Position <small>(required)</small></label>
+                                                          {{ form.position|attr:"class:form-control"|attr:"placeholder:Recommending Officer or Site Inspector"  }}
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Sex <small>(required)</small></label>
+                                                          {{ form.sex|attr:"class:form-control"|attr:"placeholder:Sex"  }}
+                                                    </div>
+                                                      {% csrf_token %}
+                                            </div>
+                                        <div class="col-md-2"></div>
+                                        </div>
+
+		                            </div>
+		                            <div class="tab-pane" id="page3">
+		                                <h5 class="info-text"> Upload your Profile Picture?</h5>
+		                                <div class="row">
+		                                    <div class="col-sm-8 col-sm-offset-2">
+		                                        <div class="form-group">
+                                                            <label>Profile Photo <small>(required)</small></label>
+                                                            {{ form.profile_photo|attr:"text-center"  }}
+                                                    </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                        </div>
+                                <div class="wizard-footer">
+                                     <div class="text-center">
+                                         <input type='button' class='btn btn-next btn-fill btn-warning btn-wd' name='next' value='Next' />
+                                     </div>
+		                            <div class="pull-right">
+                                        <button type='submit' class='btn btn-finish btn-fill btn-warning btn-wd' name='finish' value='Finish'>Submit</button>
+		                            </div>
+
+		                            <div class="pull-left">
+		                                <input type='button' class='btn btn-previous btn-default btn-wd' name='previous' value='Previous' />
+		                            </div>
+		                            <div class="clearfix"></div>
+		                        </div>
+                                    {% else %}
+                                    <h5 class="text-center"> <a href="{% url 'account_login' %}">  You are not allowed to perform this action. Login to ad a Staff </a></h5>
+                                {% endif %}
+
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+{% endblock %}

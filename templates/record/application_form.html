@@ -1,0 +1,34 @@
+{% extends 'record/base.html' %}
+
+
+{% block header-title %}
+	<title>IJZPO: New Application</title>
+{% endblock %}
+
+{% block title %}
+{% endblock %}
+
+
+{% block content %}
+{# Load the tag library #}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+{# Display a form #}
+
+<form class="applicationform" action="" method="post" class="form" enctype="multipart/form-data">
+  {% csrf_token %}
+  {% bootstrap_form form %}
+  {% buttons %}
+    <button type="submit" class="btn btn-primary">
+      {% bootstrap_icon "star" %} Submit
+    </button>
+  {% endbuttons %}
+</form>
+{% endblock %}

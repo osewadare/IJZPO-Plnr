@@ -1,0 +1,61 @@
+{% extends 'record/base.html' %}
+
+
+{% block header-title %}
+	<title>IJZPO: Search</title>
+{% endblock %}
+
+{% block title %}
+<h4 class="title">Search</h4>
+{% endblock %}
+
+
+{% block content %}
+<div class="forms">
+  <form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="content table-responsive table-full-width">
+                                <table class="table table-hover table-striped">
+                                {% if applications_length > 0 %}
+                                    <thead>
+                                        <th>ID</th>
+                                        <th>Registration Date</th>
+                                    	<th>Applicant</th>
+                                    	<th>Location</th>
+                                    	<th>Registration Plan Number</th>
+                                    	<th>Type of Use</th>
+                                        <th>No of Floors</th>
+                                    	<th>Amount</th>
+                                    	<th>Treasury Receipt Number</th>
+                                    	<th>Inspector</th>
+                                        <th>Recommending Officer</th>
+                                        <th>Charting Officer</th>
+                                        <th>Approving Officer</th>
+                                    </thead>
+                                {% endif %}
+                                    <tbody>
+                                        {% for application in filter.qs %}
+                                        <tr>
+                                        	<td>{{ application.sn }}</td>
+                                        	<td>{{ application.date_of_registration }}</td>
+                                        	<td>{{ application.applicant }}</td>
+                                        	<td>{{ application.location }}</td>
+                                        	<td>{{ application.registration_plan_number }}</td>
+                                            <td>{{ application.type_of_use }}</td>
+                                        	<td>{{ application.no_of_floors }}</td>
+                                        	<td>{{ application.amount }}</td>
+                                        	<td>{{ application.treasury_receipt_number }}</td>
+                                        	<td>{{ application.inspector }}</td>
+                                            <td>{{ application.recommending_officer }}</td>
+                                        	<td>{{ application.charting_officer }}</td>
+                                        	<td>{{ application.approving_officer }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+  </div>
+</div>
+{% endblock %}

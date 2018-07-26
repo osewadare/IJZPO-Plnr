@@ -1,0 +1,42 @@
+{% extends 'record/base.html' %}
+
+
+
+{% block header-title %}
+	<title>IJZPO: Staff Profile</title>
+{% endblock %}
+
+{% block title %}
+<h4 class="title">Staff Profile</h4>
+{% endblock %}
+
+{% block content %}
+
+     <ul class="user-profiles-list-small">
+
+     {% for staff in staffs %}
+
+        <li>
+
+            <div class="user-avatar">
+                <a href="#">
+                    <img src="/media/{{ staff.profile_photo }}" width="48" alt="Profile Photo" />
+                </a>
+            </div>
+
+            <p class="user-name">
+                <a href="">{{ staff }}</a>
+                <span>{{ staff.sex }}</span>
+                <span>{{ staff.position}}</span>
+            </p>
+
+            <br>
+
+        </li>
+     {% endfor %}
+
+
+    </ul>
+
+
+{% endblock %}

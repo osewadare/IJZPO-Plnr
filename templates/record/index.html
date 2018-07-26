@@ -1,0 +1,170 @@
+x{% extends 'record/base.html' %}
+
+
+{% block header-title %}
+	<title>IJZPO: Dashboard</title>
+{% endblock %}
+
+{% block title %}
+    <h4 class="title">DASHBOARD</h4>
+    <hr>
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title text-center">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+           Stats</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">
+              <div class="row">
+            <div class="box col-md-2">
+              <div class="box__header">
+                <h3 class="box__header-title">Total</h3>
+              </div>
+              <div class="box__body">
+                <div class="stats stats--main">
+                  <div class="stats__amount">{{ applications_length}}</div>
+                  <div class="stats__caption"><a class="stats__caption" href="{% url 'records:applications' %}" >Applications</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+              <div class="box col-md-2">
+              <div class="box__header">
+                <h3 class="box__header-title">Total</h3>
+              </div>
+              <div class="box__body">
+                <div class="stats stats--main">
+                  <div class="stats__amount">{{ staff_length}}</div>
+                  <div class="stats__caption"><a class="stats__caption" href="{% url 'records:staff_profile' %}" >Staff</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                <main>
+                      <section>
+                        <div class="col-md-6 pieID pie">
+
+                        </div>
+                              <div class="col-md-3">
+                                <ul class="pieID legend">
+                                    <li>
+                                    <em>Residential</em>
+                                    <span>{{ residential_len }}</span>
+                                  </li>
+                                    <li>
+                                    <em>Commercial</em>
+                                    <span>{{ commercial_len }}</span>
+                                  </li>
+                                    <li>
+                                    <em>Mixed Use</em>
+                                    <span>{{ mixed_len }}</span>
+                                  </li>
+                                    <li>
+                                    <em>Recreational</em>
+                                    <span>{{ recreational_len }}</span>
+                                  </li>
+                                    <li>
+                                    <em>Industrial</em>
+                                    <span>{{ industrial_len }}</span>
+                                  </li>
+                                </ul>
+                              </div>
+
+                      </section>
+                    </main> </div>
+            </div>
+                  <div class="col-md-1"></div>
+            <div class="box col-md-2">
+              <div class="box__header comingsoon">
+                <h3 class="box__header-title comingsooncaption">Coming Soon!!!</h3>
+              </div>
+              <div class="box__body comingsoon">
+                <div class="stats stats--main">
+                  <div class="stats__caption"><span class="fa fa-map-pin"></span>&nbsp;<a class="stats__caption" href="{% url 'records:maps' %}" >View on Map</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+    </div>
+          </div>
+        </div>
+      </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title text-center">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+               Latest Applications</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse in">
+              <div class="panel-body">
+                  <div class="row">
+                      <div class="content table-responsive table-full-width">
+        <table class="table table-hover table-striped">
+        {% if applications_length > 0 %}
+            <thead>
+                <th>ID</th>
+                <th>Reg Date</th>
+                <th>Applicant</th>
+                <th>Location</th>
+                <th>Reg Plan No</th>
+                <th>Type of Use</th>
+                <th>No of Floors</th>
+                <th>Amount</th>
+                <th>Treasury Receipt No</th>
+                <th>Inspector</th>
+                <th>Recommending Officer</th>
+                <th>Charting Officer</th>
+                <th>Approving Officer</th>
+                <th>LUC No</th>
+            </thead>
+        {% endif %}
+            <tbody>
+            {% for application in applications %}
+                <tr>
+                    <td>{{ application.sn }}</td>
+                    <td>{{ application.date_of_registration }}</td>
+                    <td>{{ application.applicant }}</td>
+                    <td>{{ application.location }}</td>
+                    <td>{{ application.registration_plan_number }}</td>
+                    <td>{{ application.type_of_use }}</td>
+                    <td>{{ application.no_of_floors }}</td>
+                    <td>{{ application.amount }}</td>
+                    <td>{{ application.treasury_receipt_number }}</td>
+                    <td>{{ application.inspector }}</td>
+                    <td>{{ application.recommending_officer }}</td>
+                    <td>{{ application.charting_officer }}</td>
+                    <td>{{ application.approving_officer }}</td>
+                    <td>{{ application.luc_no }}</td>
+                    {% if user.is_authenticated %}
+                         {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <hr>
+
+
+
+{% endblock %}

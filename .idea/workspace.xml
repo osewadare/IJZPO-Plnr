@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f320163e-b674-419f-8298-2f61c81cf630" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/fonts/themify.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/fonts/themify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/back1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/default-avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/new_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/paper-1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/paper-2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/paper-3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/thumb_list_boat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/thumb_list_place.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/thumb_register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/tim_80x80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/wizard-boat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/wizard-city.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/img/wizard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/css/paper-bootstrap-wizard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/css/themify-icons-demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/css/themify-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/fonts/themify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/fonts/themify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/js/jquery-2.2.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/js/jquery.bootstrap.wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/js/paper-bootstrap-wizard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_footers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_labels-progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_misc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_navs-pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_responsive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_tooltips.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/_wizard-card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/mixins/_inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/mixins/_transparency.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wizard/scss/paper-bootstrap-wizard/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/record/add_staff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/record/form_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +62,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IJZPO/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="940">
               <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -127,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/record/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -138,8 +84,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/record/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -272,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,6 +246,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -315,19 +261,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\wizard\img" />
-      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static" />
-      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\templates\record" />
-      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\assets\js" />
-      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\templates\account" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\assets" />
       <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\assets\js" />
       <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\assets\css" />
       <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\record" />
       <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\templates\account" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dare Osewa\PlanShare\Projects\My Projects\IJZPO\IJZPO" />
+      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\wizard\img" />
+      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static" />
+      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\templates\record" />
+      <recent name="C:\Users\Dare Osewa\PycharmProjects\IJZPO\static\assets\js" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.IJZPO">
@@ -398,6 +344,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -496,6 +445,19 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -675,20 +637,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482602" sideWeight="0.45803356" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21785174" sideWeight="0.45803356" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32593855" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21967213" sideWeight="0.5324773" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17371601" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26279864" sideWeight="0.49522674" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23355263" sideWeight="0.46752265" order="15" side_tool="false" content_ui="tabs" x="24" y="287" width="1318" height="153" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118003026" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256579" sideWeight="0.47583082" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16792738" sideWeight="0.54196644" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,10 +657,12 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="manage.py@PlanShareWeb" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30153322" sideWeight="0.49016643" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966834" sideWeight="0.49593496" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41761827" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23355263" sideWeight="0.46752265" order="15" side_tool="false" content_ui="tabs" x="24" y="287" width="1318" height="153" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1023,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IJZPO/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="940">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
@@ -1032,7 +994,7 @@
     <entry file="file://$PROJECT_DIR$/record/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -1041,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/record/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
